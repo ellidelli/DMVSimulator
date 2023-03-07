@@ -14,6 +14,6 @@ public class DMVSimulator {
         }
         System.out.println(number);
 
-        System.out.println("Whoops, you don't have the correct paperwork.");
+        System.out.println("Whoops, you don't have the correct paperwork, you stupid idiot! Get your life together!");
     }
 }
