@@ -14,12 +14,11 @@ public class DMVSimulator {
         }
         System.out.println(number);
 
-        int chance = 5;
-        // int chance = 1 + (int)(Math.random() * ((100 - 1) + 1));
+        int chance = 1 + (int)(Math.random() * ((100 - 1) + 1));
         if (chance == 5) {
             System.out.println("You have your paperwork, you are all set.");
         } else {
-            System.out.println("Whoops, you don't have the correct paperwork, you stupid idiot! Get your life together!");
+            System.out.println("Whoops, you don't have the correct paperwork, you stupid idiot! Get your life together! MUAHAHAH AHAHAHA AHAHAHA");
         }
     }
 }
